@@ -1,10 +1,9 @@
 * {
-    border: 1px solid black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: sans-serif;
 }
 
 .wrapper {
-    background-color: aqua;
+    background-image: linear-gradient(45deg, rgb(187, 211, 233), rgb(209, 172, 230));
     max-width: 600px;
     min-height: 400px;
     margin: auto;
@@ -19,10 +18,13 @@
 
 .button {
     border: white;
-    height: 5rem;
+    height: 3rem;
     width: 8rem;
     text-align: center;
     border-radius: 10px;
+    font-size: 15PX;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
 
 .button:hover {
@@ -30,6 +32,7 @@
 }
 
 button:active {
+    font-size: 14PX;
     background: gray;
     -webkit-box-shadow: inset 0px 0px 10px #c1c1c1;
        -moz-box-shadow: inset 0px 0px 10px #c1c1c1;
@@ -39,9 +42,11 @@ button:active {
 
 .info {
     text-align: center;
+    color: whitesmoke;
 }
 
 .scores {
+    color: whitesmoke;
     display: flex;
     justify-content: space-around;
 }
