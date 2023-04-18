@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors</title>
-    <link href="../css/style.css" rel="stylesheet">
-</head>
-<body>
-
-    <div id="wrapper">
-        <div id="buttons">
-            <button class="button" id="rock">ROCK</button>
-            <button class="button" id="paper">PAPER</button>
-            <button class="button" id="scissors">SCISSORS</button>
-        </div>
-        
-        <div class="info">
-            <h3 id="p1"></h3>
-            <h1 id="result">You vs. ComputerMan</h1>
-            
-        </div>
-        
-        <div class="scores">
-            <h2 id="user_score">your score: 0</h2>
-            <h2 id="computer_score">computer score: 0</h2>
-        </div>
-        <div id="reset">
-            <button id= "reset_button" class="button">Reset</button>
-        </div>
-    
-    
-    <script>
+<script src="../js/app.js"></script>
         let rndInt = randomIntFromInterval(1, 3);
         let computer_score = 0;
         let user_score = 0;
@@ -137,8 +104,3 @@
         function reset_scores() {
             location.reload();
         }
-    </script>
-
-
-</body>
-</html>
