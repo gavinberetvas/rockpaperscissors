@@ -3,7 +3,7 @@
         let computer_score = 0;
         let user_score = 0;
 
-        //nonsense ill need to add to make branch changes
+        //test
 
 const button = document.querySelector("button[id='rock']");   
 button.addEventListener("click", shoot_rock);
