@@ -1,68 +1,72 @@
 * {
-    font: sans-serif;
+  font: sans-serif;
 }
 
 #wrapper {
-    background-image: linear-gradient(45deg, rgb(187, 211, 233), rgb(209, 172, 230));
-    max-width: 600px;
-    min-height: 400px;
-    margin: auto;
-    border-radius: 29px;
+  background-image: linear-gradient(
+    45deg,
+    rgb(187, 211, 233),
+    rgb(209, 172, 230)
+  );
+  max-width: 600px;
+  min-height: 400px;
+  margin: auto;
+  border-radius: 29px;
 }
 
 #buttons {
-    padding: 3rem;
-    display: flex;
-    justify-content: space-around;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 .button {
-    border: white;
-    height: 3rem;
-    width: 8rem;
-    text-align: center;
-    border-radius: 10px;
-    font-size: 15PX;
-    letter-spacing: 1px;
-    font-weight: bold;
+  border: white;
+  height: 3rem;
+  width: 8rem;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
 
 .button:hover {
-    background-color: rgb(219, 211, 211);
+  background-color: rgb(219, 211, 211);
 }
 
 button:active {
-    font-size: 14PX;
-    background: gray;
-    -webkit-box-shadow: inset 0px 0px 10px #c1c1c1;
-       -moz-box-shadow: inset 0px 0px 10px #c1c1c1;
-            box-shadow: inset 0px 0px 10px #c1c1c1;
-     outline: none;
+  font-size: 14px;
+  background: gray;
+  -webkit-box-shadow: inset 0px 0px 10px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 10px #c1c1c1;
+  box-shadow: inset 0px 0px 10px #c1c1c1;
+  outline: none;
 }
 
 .info {
-    text-align: center;
-    color: whitesmoke;
+  text-align: center;
+  color: whitesmoke;
 }
 
 .scores {
-    color: whitesmoke;
-    display: flex;
-    justify-content: space-around;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
 }
 
 #reset {
-    padding-top: 2rem;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  padding-top: 2rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #reset_button {
-    height: 1.5rem;
-    width: 4rem;
-    
-    align-items: center;
-    justify-content: center;
+  height: 1.5rem;
+  width: 4rem;
+
+  align-items: center;
+  justify-content: center;
 }
